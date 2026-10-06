@@ -1,0 +1,199 @@
+{
+ "univ": "東京理科大学",
+ "dept": "工学研究科 情報工学専攻(工学部 情報工学科)",
+ "source": "https://www.it.tus.ac.jp/",
+ "checked": "2026-10-06",
+ "admission": {
+  "summary": "工学研究科の修士課程入試．試験科目・日程は大学院入学者募集要項で確認すること(本データには未収録)．",
+  "external": "",
+  "url": "https://www.tus.ac.jp/admissions/university/guideline/graduateschool/",
+  "year": ""
+ },
+ "labs": [
+  {
+   "name": "谷口研究室",
+   "prof": "谷口行信(教授)",
+   "kw": [
+    "映像メディア処理",
+    "画像認識",
+    "映像解析"
+   ],
+   "theme": "映像メディア処理，画像認識，映像解析を研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/taniguchi-lab/index.html"
+  },
+  {
+   "name": "柴田研究室",
+   "prof": "",
+   "kw": [
+    "大規模言語モデル",
+    "人工知能"
+   ],
+   "theme": "大規模言語モデル，人工知能を研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/shibata-lab/index.html",
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+  },
+  {
+   "name": "入江研究室",
+   "prof": "",
+   "kw": [
+    "パターン認識",
+    "機械学習",
+    "メディア理解"
+   ],
+   "theme": "パターン認識，機械学習，メディア理解を研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/irie-lab/index.html",
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+  },
+  {
+   "name": "寒水研究室",
+   "prof": "寒水孝司(教授)",
+   "kw": [
+    "医学研究",
+    "データサイエンス",
+    "医療データ"
+   ],
+   "theme": "医学研究，データサイエンス，医療データを研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/sozu-lab/index.html"
+  },
+  {
+   "name": "池辺研究室",
+   "prof": "池辺淑子(准教授)",
+   "kw": [
+    "数理最適化",
+    "アルゴリズム",
+    "オペレーションズリサーチ"
+   ],
+   "theme": "数理最適化，アルゴリズム，オペレーションズリサーチを研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/ikebe-lab/index.html"
+  },
+  {
+   "name": "岡留研究室",
+   "prof": "",
+   "kw": [
+    "ロボティクス",
+    "機械学習",
+    "深層学習",
+    "インタラクション"
+   ],
+   "theme": "ロボティクス，機械学習，深層学習，インタラクションを研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/okadome-lab/index.html",
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+  },
+  {
+   "name": "鬼沢研究室",
+   "prof": "",
+   "kw": [
+    "無線通信",
+    "ネットワーク",
+    "情報通信"
+   ],
+   "theme": "無線通信，ネットワーク，情報通信を研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/onizawa-lab/index.html",
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+  },
+  {
+   "name": "藤沢研究室",
+   "prof": "藤沢匡哉(准教授)",
+   "kw": [
+    "符号理論",
+    "情報セキュリティ"
+   ],
+   "theme": "符号理論，情報セキュリティを研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/fujisawa-lab/index.html"
+  },
+  {
+   "name": "池口研究室",
+   "prof": "池口徹(教授)",
+   "kw": [
+    "非線形時系列解析",
+    "複雑ネットワーク",
+    "脳神経科学",
+    "人工知能",
+    "組合せ最適化"
+   ],
+   "theme": "非線形時系列解析，複雑ネットワーク，脳神経科学，人工知能，組合せ最適化を研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/ikeguchi-lab/index.html"
+  },
+  {
+   "name": "藤井・立川研究室",
+   "prof": "藤井孝藏(教授)・立川智章(准教授)",
+   "kw": [
+    "数値シミュレーション",
+    "最適化・進化計算",
+    "データマイニング",
+    "デジタルツイン"
+   ],
+   "theme": "数値シミュレーション，最適化・進化計算，データマイニング，デジタルツインを研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/tatsukawa-lab/index.html"
+  },
+  {
+   "name": "中村研究室",
+   "prof": "",
+   "kw": [
+    "画像認識・生成",
+    "人工知能",
+    "AIに対する攻撃と防御"
+   ],
+   "theme": "画像認識・生成，人工知能(AI)，AIに対する攻撃と防御を研究分野とする．",
+   "url": "https://www.it.tus.ac.jp/lab/nakamura-lab/index.html",
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+  },
+  {
+   "name": "赤倉研究室",
+   "prof": "赤倉貴子(教授)",
+   "kw": [
+    "データ解析",
+    "システム開発",
+    "教育工学"
+   ],
+   "theme": "データ解析，システム開発，教育工学を研究分野とする．",
+   "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+  },
+  {
+   "name": "篠崎研究室",
+   "prof": "篠崎智大(講師)",
+   "kw": [
+    "統計的因果推論",
+    "疫学理論",
+    "医療統計学"
+   ],
+   "theme": "統計的因果推論，疫学理論，医療統計学を研究分野とする．",
+   "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+  },
+  {
+   "name": "松尾研究室",
+   "prof": "松尾裕一(教授)",
+   "kw": [
+    "デジタルツイン"
+   ],
+   "theme": "デジタルツインを研究分野とする．",
+   "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+  },
+  {
+   "name": "八嶋研究室",
+   "prof": "八嶋弘幸(教授)",
+   "kw": [
+    "通信工学",
+    "情報理論",
+    "光信号処理"
+   ],
+   "theme": "通信工学，情報理論，光信号処理を研究分野とする．",
+   "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+  },
+  {
+   "name": "渡邉研究室",
+   "prof": "渡邉均(教授)",
+   "kw": [
+    "通信網制御",
+    "ネットワーク安全性"
+   ],
+   "theme": "通信網制御，ネットワーク安全性を研究分野とする．",
+   "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+  }
+ ]
+}
