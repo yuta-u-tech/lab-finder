@@ -18,31 +18,117 @@
     "画像認識",
     "映像解析"
    ],
-   "theme": "映像メディア処理，画像認識，映像解析を研究分野とする．",
-   "url": "https://www.it.tus.ac.jp/lab/taniguchi-lab/index.html"
+   "theme": "映像をテレビやネットで楽しむだけでなく、誰でも簡単にスマートフォンで動画を撮影・編集・共有できる時代になりました。われわれの身の周りには画像・映像データがあふれています。本研究室では、そのデータを有効活用するために、コンピュータによる画像・映像の内容理解を実現する映像メディア処理技術（画像認識、映像解析）と、その結果に基づき映像メディアの提示タイミング・経路・表現を最適化するメディア最適化技術を中心に研究します。",
+   "url": "https://www.it.tus.ac.jp/lab/taniguchi-lab/index.html",
+   "topics": [
+    "画像・映像データの自動インデクシングと直観的・効率的な検索",
+    "カメラ映像解析による実世界状況センシング",
+    "画像解析による乳用牛の個体管理"
+   ],
+   "note": "",
+   "papers_src": [
+    "https://openalex.org/authors/A5108748465"
+   ],
+   "papers": [
+    {
+     "title": "Generating textured 3D dairy cow models from a few images",
+     "year": 2026,
+     "doi": "https://doi.org/10.1117/12.3102536",
+     "author": "谷口行信"
+    },
+    {
+     "title": "Bus boarding-to-alighting section estimation via integrated passenger re-identification and tracking",
+     "year": 2026,
+     "doi": "https://doi.org/10.1117/12.3102565",
+     "author": "谷口行信"
+    },
+    {
+     "title": "Movement-specific vehicle counting robust to occlusion at intersections",
+     "year": 2026,
+     "doi": "https://doi.org/10.1117/12.3102494",
+     "author": "谷口行信"
+    },
+    {
+     "title": "Detecting Door-Closing Defects Via Pre-Training with Physics-Based Simulations",
+     "year": 2026,
+     "doi": "https://doi.org/10.1007/s42979-026-04804-0",
+     "author": "谷口行信"
+    },
+    {
+     "title": "Separation-Aware Downsampling for Vehicle Detection",
+     "year": 2026,
+     "doi": "https://doi.org/10.5220/0014393400004084",
+     "author": "谷口行信"
+    }
+   ]
   },
   {
    "name": "柴田研究室",
-   "prof": "",
+   "prof": "柴田知秀(准教授)",
    "kw": [
     "大規模言語モデル",
     "人工知能"
    ],
-   "theme": "大規模言語モデル，人工知能を研究分野とする．",
+   "theme": "自然言語処理とは、日本語や英語など私たちが普段使う言語（自然言語）をコンピュータに理解させる研究分野です。近年、大規模言語モデル（LLM）が驚くべき進歩を遂げていますが、モデル開発が一部のビッグテックによりクローズドに進められていることや英語中心で進展していることなどの問題があります。本研究室では、大規模言語モデルの動作原理の解明や日本語に関する評価基盤の設計・構築などの基礎的な研究を進めるとともに、その利活用による社会問題の解決に取り組みます。",
    "url": "https://www.it.tus.ac.jp/lab/shibata-lab/index.html",
-   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．",
+   "topics": [
+    "大規模言語モデル内部における多言語処理の解明",
+    "難易度の高いタスクの日本語評価ベンチマークの構築",
+    "大規模言語モデルの利活用による社会問題の解決"
+   ]
   },
   {
    "name": "入江研究室",
-   "prof": "",
+   "prof": "入江豪(教授)",
    "kw": [
     "パターン認識",
     "機械学習",
     "メディア理解"
    ],
-   "theme": "パターン認識，機械学習，メディア理解を研究分野とする．",
+   "theme": "人間と同じように見聞きしたり、学んだり、考えたりすることができる賢いコンピュータ、AI（人工知能）。情報工学における長年の夢だったそれが、いよいよ身近なものになりつつあります。AIが持つべき最も重要な能力のひとつが認識能力です。人間がそうであるように、AIも何をするにもまず身の回りの状況を正しく認識できなければなりません。本研究室では、より賢く・役に立つAIの実現に向けて、あらゆる実世界の様子を正確に認識することができる情報処理技術を研究しています。",
    "url": "https://www.it.tus.ac.jp/lab/irie-lab/index.html",
-   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．",
+   "topics": [
+    "画像や音から周辺の状況を自動的に認識するシーン認識技術",
+    "知らない物事を区別し、自ら学習する機械学習技術",
+    "人々のさまざまな活動を賢く支援してくれる情報処理応用技術"
+   ],
+   "papers_src": [
+    "https://openalex.org/authors/A5017607351"
+   ],
+   "papers": [
+    {
+     "title": "Zero-Shot Linear Calibration Approach to Knowledge-Free Group Robust Classification",
+     "year": 2026,
+     "doi": "https://doi.org/10.1587/transinf.2025edp7170",
+     "author": "入江豪"
+    },
+    {
+     "title": "\"Acoustic Music-based Pose Learning (AMPL)\"",
+     "year": 2026,
+     "doi": "https://doi.org/10.21227/ryz7-b544",
+     "author": "入江豪"
+    },
+    {
+     "title": "Feature Transformation for Learning with Selective Forgetting",
+     "year": 2026,
+     "doi": "https://doi.org/10.1587/transinf.2025edp7064",
+     "author": "入江豪"
+    },
+    {
+     "title": "BGM2Pose: Active 3D Human Pose Estimation With Non-Stationary Sounds",
+     "year": 2026,
+     "doi": "https://doi.org/10.1109/ojsp.2026.3705347",
+     "author": "入江豪"
+    },
+    {
+     "title": "Sound-based Multi-Person 3D Pose Estimation",
+     "year": 2026,
+     "doi": "https://doi.org/10.1007/978-3-032-37467-7_23",
+     "author": "入江豪"
+    }
+   ]
   },
   {
    "name": "寒水研究室",
@@ -52,8 +138,14 @@
     "データサイエンス",
     "医療データ"
    ],
-   "theme": "医学研究，データサイエンス，医療データを研究分野とする．",
-   "url": "https://www.it.tus.ac.jp/lab/sozu-lab/index.html"
+   "theme": "医学研究や毒性試験（安全性試験）を中心にして、研究（試験）の計画（データのとり方、調査の仕方）とデータ解析の方法論について研究を行っています。特に、医学研究では医薬品を、毒性試験では化粧品を対象にして、それらの有効性や安全性を評価するための研究（試験）計画やデータ解析について検討・考察します。さらに、実際の医学研究や毒性試験に参加して、得られた成果を社会に発信します。",
+   "url": "https://www.it.tus.ac.jp/lab/sozu-lab/index.html",
+   "topics": [
+    "新しい治療法の有効性の評価",
+    "病気の予後予測",
+    "動物実験代替法の評価"
+   ],
+   "note": ""
   },
   {
    "name": "池辺研究室",
@@ -63,33 +155,107 @@
     "アルゴリズム",
     "オペレーションズリサーチ"
    ],
-   "theme": "数理最適化，アルゴリズム，オペレーションズリサーチを研究分野とする．",
-   "url": "https://www.it.tus.ac.jp/lab/ikebe-lab/index.html"
+   "theme": "物事の計画や立案をするとき、さまざまな条件の下で、何らかの基準で最良のものを選ぶ問題を最適化問題といいます。例えば、宅配便の集配所の荷物を数台のトラックで配送するとき、配送コストができるだけ少ないような荷物のトラックへの分配と、各トラックの配達経路を決定する問題があります。また、本拠地を持つチームからなるスポーツリーグが総当たりで戦うとき、移動距離が小さくなるように、各チームペアがいつ、どこで戦うかを決めるスケジューリング問題があります。本研究室ではこのような問題を解決する手法をアルゴリズムに重点を置きながら研究しています。",
+   "url": "https://www.it.tus.ac.jp/lab/ikebe-lab/index.html",
+   "topics": [
+    "電気自動車の充電施設配置に関する研究",
+    "交通流におけるWardrop均衡問題に関する研究",
+    "送電ロスを最小にする風車の配置に関する研究"
+   ],
+   "note": "",
+   "papers_src": [
+    "https://openalex.org/authors/A5086225754"
+   ],
+   "papers": [
+    {
+     "title": "OUT-OF-STATION INTERCHANGE TOWARD CONGESTION RELIEF: A CASE STUDY OF THE TOKYO METRO",
+     "year": 2025,
+     "doi": "https://doi.org/10.15807/jorsj.68.151",
+     "author": "池辺淑子"
+    },
+    {
+     "title": "On Computing Medians of Marked Point Process Data Under Edit Distance",
+     "year": 2023,
+     "doi": "https://doi.org/10.1007/s10957-023-02352-8",
+     "author": "池辺淑子"
+    },
+    {
+     "title": "MIXED-INTEGER DC PROGRAMMING BASED ALGORITHMS FOR THE CIRCULAR PACKING PROBLEM",
+     "year": 2023,
+     "doi": "https://doi.org/10.15807/jorsj.66.153",
+     "author": "池辺淑子"
+    }
+   ]
   },
   {
    "name": "岡留研究室",
-   "prof": "",
+   "prof": "岡留有哉(講師)",
    "kw": [
     "ロボティクス",
     "機械学習",
     "深層学習",
     "インタラクション"
    ],
-   "theme": "ロボティクス，機械学習，深層学習，インタラクションを研究分野とする．",
+   "theme": "最近、私達の身の回りでも多くのロボットを見る機会が増えてきました。その一方で、私達が友だちと話すときのような、高度な機能はまだ実現がされていません。頷きやジェスチャ、アイコンタクトなど、私達人間は振る舞いに紐づいた多くのサインを用いています。本研究室では、特にインタラクションの場面における人の振る舞いを収集、観察、分析した結果と、その結果を活用した学習技術を開発することで、「自然に」振る舞うことのできる知的システムの実現をめざして研究に取り組んでいます。",
    "url": "https://www.it.tus.ac.jp/lab/okadome-lab/index.html",
-   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．",
+   "topics": [
+    "データ駆動型動作生成手法の検討",
+    "コミュニケーション評価指標の設計",
+    "人の対話データを活用した対話システムの開発"
+   ],
+   "papers_src": [
+    "https://openalex.org/authors/A5021267164"
+   ],
+   "papers": [
+    {
+     "title": "Self-supervised Facial Video Recognition with Input Gating for Delirium Classification",
+     "year": 2026,
+     "doi": "https://doi.org/10.1007/978-3-032-38407-2_47",
+     "author": "岡留有哉"
+    },
+    {
+     "title": "An Interaction Motion Generation Model Based on A Diffusion Model and Graph Attention for Back-Channel Behavior Synthesis",
+     "year": 2026,
+     "doi": "https://doi.org/10.1145/3776734.3794490",
+     "author": "岡留有哉"
+    },
+    {
+     "title": "Identifying Influential Actions in Human-Robot Interactions",
+     "year": 2026,
+     "doi": "https://doi.org/10.48550/arxiv.2603.07885",
+     "author": "岡留有哉"
+    },
+    {
+     "title": "Exploring Factors Influencing Cybersickness and Workload in VR Robot Teleoperation Systems under Spatial and Temporal Noise",
+     "year": 2026,
+     "doi": "https://doi.org/10.1109/sii64115.2026.11404466",
+     "author": "岡留有哉"
+    },
+    {
+     "title": "Generating interaction gestures in dyadic conversations using a diffusion model",
+     "year": 2025,
+     "doi": "https://doi.org/10.1371/journal.pone.0339579",
+     "author": "岡留有哉"
+    }
+   ]
   },
   {
    "name": "鬼沢研究室",
-   "prof": "",
+   "prof": "鬼沢武(教授)",
    "kw": [
     "無線通信",
     "ネットワーク",
     "情報通信"
    ],
-   "theme": "無線通信，ネットワーク，情報通信を研究分野とする．",
+   "theme": "あらゆる場所でストレスなく、すべてのヒトやモノと通信ができる技術の研究に取り組みます。最後の接点は必ず無線になります。しかし、現状では速度が遅い、接続できないなどの課題がまだ多くあります。したがって、伝送速度の向上や柔軟なネットワーク構成への転換が必要です。更には、無線と光の融合、上空方向への展開、センシングや人工知能、機械学習手法の活用など情報通信分野は大きな転換期を迎えています。本研究室では、ネットワーク全体を対象として将来の新たなネットワークを開拓する技術の研究を進めます。",
    "url": "https://www.it.tus.ac.jp/lab/onizawa-lab/index.html",
-   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．",
+   "topics": [
+    "より高い伝送速度を実現する無線伝送技術",
+    "より混雑した環境において通信が可能な無線ネットワーク構成技術",
+    "上空方向への展開、センシングや人工知能、機械学習分野とも連携した無線システムの構築"
+   ]
   },
   {
    "name": "藤沢研究室",
@@ -98,8 +264,48 @@
     "符号理論",
     "情報セキュリティ"
    ],
-   "theme": "符号理論，情報セキュリティを研究分野とする．",
-   "url": "https://www.it.tus.ac.jp/lab/fujisawa-lab/index.html"
+   "theme": "いつでも、どこでも、誰でも気軽に利用でき、欲しい情報を手に入れることができるユビキタス情報社会を実現するためには、情報伝達の高信頼化や、ネットワークの安全化が重要な課題となります。本研究室ではこれら情報伝達の高信頼化・安全化を達成するための技術を中心に研究しています。また、これらの技術を応用した情報システムの開発も行っています。",
+   "url": "https://www.it.tus.ac.jp/lab/fujisawa-lab/index.html",
+   "topics": [
+    "次世代通信に向けた符号化技術に関する研究",
+    "電子署名・認証システムの構築に関する研究"
+   ],
+   "note": "",
+   "papers_src": [
+    "https://openalex.org/authors/A5086700645"
+   ],
+   "papers": [
+    {
+     "title": "Integration of CSI and Camera Image for Indoor Wireless Localization",
+     "year": 2026,
+     "doi": "https://doi.org/10.1109/access.2026.3678610",
+     "author": "藤沢匡哉"
+    },
+    {
+     "title": "Fisheye Camera-Aided Standalone IRS Control for Transmitter Beamforming",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/tencon66050.2025.11375241",
+     "author": "藤沢匡哉"
+    },
+    {
+     "title": "Implementing XAI for Enhanced Network Anomaly Detection with Unknown Attacks",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/gcce65946.2025.11275195",
+     "author": "藤沢匡哉"
+    },
+    {
+     "title": "Flight Models Considering Wind Effects on Drone-Based Networks During Large-Scale Disasters",
+     "year": 2025,
+     "doi": "https://doi.org/10.23919/comex.2025xbl0073",
+     "author": "藤沢匡哉"
+    },
+    {
+     "title": "Efficient and secure secret sharing-based data outsourcing suitable for Internet of Things environments",
+     "year": 2025,
+     "doi": "https://doi.org/10.1016/j.iot.2025.101645",
+     "author": "藤沢匡哉"
+    }
+   ]
   },
   {
    "name": "池口研究室",
@@ -111,32 +317,155 @@
     "人工知能",
     "組合せ最適化"
    ],
-   "theme": "非線形時系列解析，複雑ネットワーク，脳神経科学，人工知能，組合せ最適化を研究分野とする．",
-   "url": "https://www.it.tus.ac.jp/lab/ikeguchi-lab/index.html"
+   "theme": "台風の進路、地震の発生、為替相場、伝染病の発生など、この世界には複雑に変動する現象が数多くあります。本研究室では、これらの複雑な振舞いを生み出した法則を解き明かして、予測・制御・診断などに応用する研究を行っています。また、脳型情報処理原理を解明することで、従来とは異なる新しい計算原理を創り出し、それを工学的に応用する研究も行っています。さらに、カオスと呼ばれる複雑現象を用いて、巡回セールスマン問題などの組合せ最適化問題を高速かつ効率的に解くためのアルゴリズムの開発も行っています。",
+   "url": "https://www.it.tus.ac.jp/lab/ikeguchi-lab/index.html",
+   "topics": [
+    "局所天候予測、地震発生間隔・発生規模の予測、ネットワークの時間発展予測",
+    "脳における記憶・学習機構の解明",
+    "カオスを用いた超大規模組合せ最適化問題の高能率解法の開発"
+   ],
+   "note": "",
+   "papers_src": [
+    "https://openalex.org/authors/A5069803426"
+   ],
+   "papers": [
+    {
+     "title": "Identifying surge of exclusionary nationalism: A case study of prewar Japan",
+     "year": 2026,
+     "doi": "https://doi.org/10.1371/journal.pone.0349895",
+     "author": "池口徹"
+    },
+    {
+     "title": "Effect of time scale on chaotic time series prediction using echo state network",
+     "year": 2026,
+     "doi": "https://doi.org/10.1587/nolta.17.998",
+     "author": "池口徹"
+    },
+    {
+     "title": "Adaptive parameter tuning of chaotic search using particle swarm optimization",
+     "year": 2026,
+     "doi": "https://doi.org/10.1587/nolta.17.1062",
+     "author": "池口徹"
+    },
+    {
+     "title": "A metaheuristic strategy for solving capacitated vehicle routing problem by using chaotic dynamics",
+     "year": 2025,
+     "doi": "https://doi.org/10.1587/nolta.17.279",
+     "author": "池口徹"
+    },
+    {
+     "title": "Detecting causality based on state space reconstruction from interspike intervals for neural spike trains",
+     "year": 2025,
+     "doi": "https://doi.org/10.1103/t2jb-vvx9",
+     "author": "池口徹"
+    }
+   ]
   },
   {
    "name": "藤井・立川研究室",
-   "prof": "藤井孝藏(教授)・立川智章(准教授)",
+   "prof": "藤井孝藏(教授)・立川智章(教授)",
    "kw": [
     "数値シミュレーション",
     "最適化・進化計算",
     "データマイニング",
     "デジタルツイン"
    ],
-   "theme": "数値シミュレーション，最適化・進化計算，データマイニング，デジタルツインを研究分野とする．",
-   "url": "https://www.it.tus.ac.jp/lab/tatsukawa-lab/index.html"
+   "theme": "流体関連の数値シミュレーション（CFD）と設計最適化の2つを研究の柱としています。前者では先端的なシミュレーション手法とスーパーコンピュータ等も利用した実問題への応用、後者では現実の設計問題で直面する複数目的最適化問題を解決する次世代情報技術、さらにはそこから設計に有用な情報を抽出する設計探査（データマイニング）などが研究の中心です。JAXAや企業、他大学との共同研究も行っています。社会問題解決に向けたビッグデータ解析による航空機離発着や列車ダイヤ等のグローバル最適化といった新たな課題への挑戦をはじめたところです。",
+   "url": "https://www.it.tus.ac.jp/lab/tatsukawa-lab/index.html",
+   "topics": [
+    "進化計算を用いた多目的最適化に関する研究",
+    "ビッグデータ解析による航空機離発着、列車ダイヤ等のグローバル最適化に関する研究",
+    "JAXA等が抱える実問題を用いた多目的最適化に関する研究"
+   ],
+   "note": "",
+   "papers_src": [
+    "https://openalex.org/authors/A5078842394",
+    "https://openalex.org/authors/A5089650488"
+   ],
+   "papers": [
+    {
+     "title": "Scale Resolving Methods for Aeronautical Flows toward the Era of “Industrial LES”",
+     "year": 2025,
+     "doi": "https://doi.org/10.1007/s10494-025-00659-2",
+     "author": "藤井孝藏"
+    },
+    {
+     "title": "Adaptive and Interpretable Speed Control Rules for En Route Arrival Management Using Extended Learning Classifier System",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/access.2025.3546640",
+     "author": "藤井孝藏"
+    },
+    {
+     "title": "Overcoming Upper and Lower Bound Limitations of Input in Cortical Learning Algorithm",
+     "year": 2025,
+     "doi": "https://doi.org/10.3156/jsoft.37.4_743",
+     "author": "立川智章"
+    },
+    {
+     "title": "Responsible Gaussian Model: Matrix-Based Approximation of Gaussian Mixture Model",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/access.2025.3604006",
+     "author": "立川智章"
+    },
+    {
+     "title": "Aerospace Bricks: Modular and Scalable 2D Cellular Automaton Framework for Delay and Conflict Analysis in En-Route Airspace",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/access.2025.3608241",
+     "author": "立川智章"
+    }
+   ]
   },
   {
    "name": "中村研究室",
-   "prof": "",
+   "prof": "中村和晃(准教授)",
    "kw": [
     "画像認識・生成",
     "人工知能",
     "AIに対する攻撃と防御"
    ],
-   "theme": "画像認識・生成，人工知能(AI)，AIに対する攻撃と防御を研究分野とする．",
+   "theme": "人工知能（AI）の発達により画像・映像処理技術が急速に進歩しており、人や動物、自動車、建物などを自動認識するAIや、逆に、本物そっくりの顔画像や風景画像を自動合成するAIが登場しつつあります。一方で、クラウド上で運用されるAIにはサイバー攻撃を受けるリスクも存在します。当研究室では、画像認識AIや画像生成AIについて研究すると同時に、それらをターゲットとした攻撃の可能性とその防御法についても研究を進めています。",
    "url": "https://www.it.tus.ac.jp/lab/nakamura-lab/index.html",
-   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．"
+   "note": "学科の研究室一覧に掲載．大学院の指導教員一覧(情報工学専攻)には名前が見当たらないため，進学時の指導の可否を要確認．教員名は一覧に記載なし．",
+   "topics": [
+    "画像や映像の認識・理解・生成に関する研究",
+    "画像認識AIを不正に複製する攻撃とその防御法",
+    "画像認識AIから画像を逆生成する攻撃（顔認識器からの個人の顔の復元など）とその防御法"
+   ],
+   "papers_src": [
+    "https://openalex.org/authors/A5058191809"
+   ],
+   "papers": [
+    {
+     "title": "Generating textured 3D dairy cow models from a few images",
+     "year": 2026,
+     "doi": "https://doi.org/10.1117/12.3102536",
+     "author": "中村和晃"
+    },
+    {
+     "title": "Model Extraction Attack and Its Countermeasure for Denoising Diffusion Implicit Models",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/apsipaasc65261.2025.11249122",
+     "author": "中村和晃"
+    },
+    {
+     "title": "Access Control for Diffusion Models by Random Masking the Covariance of Initial Noise Distribution",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/apsipaasc65261.2025.11249223",
+     "author": "中村和晃"
+    },
+    {
+     "title": "Reducing Implicit Class Imbalance in Unlabeled Datasets Using Text-Specified Sensitive Attributes",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/apsipaasc65261.2025.11249300",
+     "author": "中村和晃"
+    },
+    {
+     "title": "Detoxification of Poisoned Recognition Models by Fine-Tuning with Out-of-Distribution Samples",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/apsipaasc65261.2025.11248971",
+     "author": "中村和晃"
+    }
+   ]
   },
   {
    "name": "赤倉研究室",
@@ -148,7 +477,42 @@
    ],
    "theme": "データ解析，システム開発，教育工学を研究分野とする．",
    "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
-   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．",
+   "papers_src": [
+    "https://openalex.org/authors/A5076158539"
+   ],
+   "papers": [
+    {
+     "title": "EXPLORING FUTURE CONTENT DEVELOPMENT STRATEGIES BASED ON USAGE ANALYSIS OF THE SMARTPHONE VERSION OF AN INTELLECTUAL PROPERTY LAW LEARNING SUPPORT SYSTEM",
+     "year": 2026,
+     "doi": "https://doi.org/10.21125/inted.2026.1327",
+     "author": "赤倉貴子"
+    },
+    {
+     "title": "Enhancing Learner Reflection in Essay Writing: An Adaptive Feedback System Integrating AES-Based Visualization and LLM Explanations",
+     "year": 2026,
+     "doi": "https://doi.org/10.1007/978-3-032-29178-3_12",
+     "author": "赤倉貴子"
+    },
+    {
+     "title": "Robustness Evaluation of Automatic Problem and Feedback Generation from Student Code for Program Trace Learning Support System",
+     "year": 2026,
+     "doi": "https://doi.org/10.1007/978-3-032-29178-3_9",
+     "author": "赤倉貴子"
+    },
+    {
+     "title": "ELMER: A Taxonomy-Based Framework for Designing Observable Error Feedback to Support Exploratory Learning of Unobservable Concepts in STEAM Education",
+     "year": 2026,
+     "doi": "https://doi.org/10.1007/978-3-032-29178-3_6",
+     "author": "赤倉貴子"
+    },
+    {
+     "title": "Proposal of an Extended Finite State Machine for Realizing Dialogue in a Program Tracing Exercise System",
+     "year": 2025,
+     "doi": "https://doi.org/10.1109/tale66047.2025.11346642",
+     "author": "赤倉貴子"
+    }
+   ]
   },
   {
    "name": "篠崎研究室",
@@ -160,7 +524,42 @@
    ],
    "theme": "統計的因果推論，疫学理論，医療統計学を研究分野とする．",
    "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
-   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．",
+   "papers_src": [
+    "https://openalex.org/authors/A5030124286"
+   ],
+   "papers": [
+    {
+     "title": "Loneliness and desire for thinness explain sex differences in adolescent internalizing problems",
+     "year": 2026,
+     "doi": "https://doi.org/10.1038/s41562-026-02578-2",
+     "author": "篠崎智大"
+    },
+    {
+     "title": "Ultra-early versus early adjunctive vasopressin initiation after norepinephrine escalation in septic shock: a target trial emulation",
+     "year": 2026,
+     "doi": "https://doi.org/10.1007/s00134-026-08575-3",
+     "author": "篠崎智大"
+    },
+    {
+     "title": "Prognostic Impact of Definite and Marginal Discordance Between Fractional Flow Reserve and Nonhyperemic Pressure Ratio",
+     "year": 2026,
+     "doi": "https://doi.org/10.1016/j.jcin.2026.03.037",
+     "author": "篠崎智大"
+    },
+    {
+     "title": "Government-regulated workplace indoor smoking rooms for exclusive heated tobacco product (HTP) smoking in Japanese workplaces are associated with a higher likelihood of HTP smoking: the JASTIS 2024 study",
+     "year": 2026,
+     "doi": "https://doi.org/10.1136/tc-2025-059459",
+     "author": "篠崎智大"
+    },
+    {
+     "title": "Herpes zoster risk among female survivors of breast cancer in Japan",
+     "year": 2026,
+     "doi": "https://doi.org/10.1186/s13058-026-02345-1",
+     "author": "篠崎智大"
+    }
+   ]
   },
   {
    "name": "松尾研究室",
@@ -170,7 +569,30 @@
    ],
    "theme": "デジタルツインを研究分野とする．",
    "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
-   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．",
+   "papers_src": [
+    "https://openalex.org/authors/A5113938098"
+   ],
+   "papers": [
+    {
+     "title": "Virtual Factory",
+     "year": 2025,
+     "doi": "https://doi.org/10.1299/jsmecmd.2025.38.os24-4",
+     "author": "松尾裕一"
+    },
+    {
+     "title": "Digital Thread and Digital Twins",
+     "year": 2023,
+     "doi": "https://doi.org/10.1299/jsmemecj.2023.f011-4",
+     "author": "松尾裕一"
+    },
+    {
+     "title": "Toward Digital Twin/Digital Thread in Industrial Activities",
+     "year": 2022,
+     "doi": "https://doi.org/10.1299/jsmemecj.2022.c011-04",
+     "author": "松尾裕一"
+    }
+   ]
   },
   {
    "name": "八嶋研究室",
@@ -182,7 +604,42 @@
    ],
    "theme": "通信工学，情報理論，光信号処理を研究分野とする．",
    "url": "https://www.tus.ac.jp/academics/graduate_school/engineering/information_computertecnology/",
-   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．"
+   "note": "大学院の指導教員一覧に掲載．学科の研究室一覧には載っていない．",
+   "papers_src": [
+    "https://openalex.org/authors/A5021464669"
+   ],
+   "papers": [
+    {
+     "title": "Denoising Method for NMR Signals Based on Two Domain Sparse Representation",
+     "year": 2023,
+     "doi": "https://doi.org/10.1109/mwscas57524.2023.10406084",
+     "author": "八嶋弘幸"
+    },
+    {
+     "title": "All-Optical Hard Limiter Using Quantum-Dot SOA-based MZIs",
+     "year": 2023,
+     "doi": "https://doi.org/10.1109/cleo/europe-eqec57999.2023.10232344",
+     "author": "八嶋弘幸"
+    },
+    {
+     "title": "Delayed Coding Scheme for Channels with Insertion, Deletion, and Substitution Errors",
+     "year": 2022,
+     "doi": "https://doi.org/10.1109/globecom48099.2022.10001402",
+     "author": "八嶋弘幸"
+    },
+    {
+     "title": "Symbol-Level Detection With Matched Non-Binary LDPC Codes for Position Errors in Racetrack Memories",
+     "year": 2022,
+     "doi": "https://doi.org/10.1109/tmag.2022.3214932",
+     "author": "八嶋弘幸"
+    },
+    {
+     "title": "Windowed-based synchronization error-correction for spatially coupled codes",
+     "year": 2022,
+     "doi": "https://doi.org/10.1587/comex.2022xbl0121",
+     "author": "八嶋弘幸"
+    }
+   ]
   },
   {
    "name": "渡邉研究室",

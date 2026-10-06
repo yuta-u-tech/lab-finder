@@ -61,6 +61,9 @@ h2{margin:0;font:700 19px/1.4 var(--display)}
 .tags li.hit{background:var(--mark);color:var(--ink);border-color:transparent}
 .why{font-size:13px;color:var(--accent);margin:0 0 8px}
 .warn{font-size:13px;color:var(--warn);margin:0 0 8px}
+.topics,.papers{margin:0 0 10px;padding:0 0 0 1.2em;font-size:13.5px}
+.papers{color:var(--muted);font-size:13px}
+.sec{font:500 11px var(--mono);letter-spacing:.08em;color:var(--muted);margin:10px 0 2px}
 .links{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13px;margin:0}
 a{color:var(--accent)}
 .adm{margin:8px 0 0;font-size:13px}
@@ -125,7 +128,7 @@ const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 const safeUrl=u=>/^https?:\/\//.test(u)?u:"";
 
 // 検索用の正規化テキストを先に作っておく．
-LABS.forEach(l=>{l._kw=l.k.map(norm);l._txt=norm(l.n+" "+l.t+" "+l.d+" "+l.p)});
+LABS.forEach(l=>{l._kw=l.k.map(norm);l._txt=norm(l.n+" "+l.t+" "+l.d+" "+l.p+" "+(l.o||[]).join(" ")+" "+(l.r||[]).map(x=>x[0]).join(" "))});
 const VOCAB=[...new Set(LABS.flatMap(l=>l._kw).filter(k=>k.length>=2))];
 
 function terms(text){
@@ -198,9 +201,11 @@ function render(){
         <p class="meta">${esc(l.u)} ／ ${esc(l.d)}${l.p&&l.n?` ／ ${esc(l.p)}`:""}</p>
         ${q&&hits.size?`<p class="why">一致：${[...hits].map(esc).join("，")}${via.size?`（「${esc([...via].join("，"))}」から関連づけ）`:""}</p>`:""}
         ${l.t?`<p class="theme">${esc(l.t)}</p>`:""}
+        ${l.o&&l.o.length?`<p class="sec">研究テーマ例</p><ul class="topics">${l.o.map(x=>`<li>${esc(x)}</li>`).join("")}</ul>`:""}
+        ${l.r&&l.r.length?`<p class="sec">最近の論文（OpenAlexから自動取得）</p><ul class="papers">${l.r.map(x=>`<li>${esc(x[0])}（${esc(x[1])}）${safeUrl(x[2])?` <a href="${esc(x[2])}" target="_blank" rel="noopener">DOI</a>`:""}</li>`).join("")}</ul>`:""}
         <ul class="tags">${l.k.map((k,i)=>`<li class="${hits.has(k)?"hit":""}">${esc(k)}</li>`).join("")}</ul>
         ${l.w?`<p class="warn">注意：${esc(l.w)}</p>`:""}
-        <p class="links">${url?`<a href="${esc(url)}" target="_blank" rel="noopener">研究室・教員ページ</a>`:""}<span>確認日 ${esc(l.c)}</span></p>
+        <p class="links">${url?`<a href="${esc(url)}" target="_blank" rel="noopener">研究室・教員ページ</a>`:""}${(l.s||[]).filter(safeUrl).map(x=>`<a href="${esc(x)}" target="_blank" rel="noopener">論文一覧(OpenAlex)</a>`).join("")}<span>確認日 ${esc(l.c)}</span></p>
         ${admHtml(l)}
       </div></li>`}).join("");
   $("more").hidden=rows.length<=shown;

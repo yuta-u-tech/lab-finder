@@ -39,6 +39,9 @@ def main():
                 "l": lab.get("url", ""),
                 "a": adm_index[key],
                 "w": lab.get("note", ""),
+                "o": lab.get("topics", []),
+                "r": [[x["title"], x["year"], x.get("doi") or ""] for x in lab.get("papers", [])],
+                "s": lab.get("papers_src", []),
                 "c": d["checked"],
             })
     payload = "const LABS=" + json.dumps(labs, ensure_ascii=False, separators=(",", ":")) + ";\n"
